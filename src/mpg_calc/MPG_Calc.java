@@ -1,4 +1,4 @@
-package mpg_to_cost_calculator;
+package mpg_calc;
 
 /**
  *
@@ -8,7 +8,7 @@ package mpg_to_cost_calculator;
  */
 
 
-public class MPG_To_Cost_Calculator {
+public class MPG_Calc {
   
   
   // -- Assignments --
@@ -22,7 +22,7 @@ public class MPG_To_Cost_Calculator {
   
   // -- Constructor --
   
-  public MPG_To_Cost_Calculator 
+  public MPG_Calc 
     (double _mpg, double _tankSize, double _currentPricePerGallon, 
       double _maxMilesPerTank, double _costPerMile) {
       
@@ -51,8 +51,10 @@ public class MPG_To_Cost_Calculator {
 
   public static void main(String[] args) {
   //  _ConsoleOutput();
+  
+  
   }
 
 
 
-} // -- END --
+} //#-
